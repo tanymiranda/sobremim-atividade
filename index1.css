@@ -1,0 +1,30 @@
+/* tudo que colocar o root vai aparecer essa color 
+no background( )coloca a variavel que se alterar a variavel, ele se altera sozinho
+margin-top*/
+:root{
+   --bg-color: blue;
+   --primary-color:white;
+   --margin-left: 100px;
+}
+body{
+    background-color:var(--bg-color);
+}
+div.container {
+    background-color: var(--bg-color);
+}
+div.container h1{
+color: var(--primary-color);
+font-size: 32px;
+font-weight: 700;
+}
+div.container p{
+    color: var(--primary-color);
+    font-size: 32px;
+}
+div.container form{
+    border: 5px solid black;
+    /* top, eigth, button e left*/
+    margin: 100px 50px 75px 100px;
+    padding: 100px 50px 75px 100px;
+
+}
